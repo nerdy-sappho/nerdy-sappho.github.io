@@ -1,0 +1,172 @@
+@font-face {
+	font-family: "LegibleFont";
+	src:
+		url("../../fonts/Atkinson-Regular.eot?") format("embedded-opentype"),
+		url("../../fonts/Atkinson-Regular.woff2?#iefix") format("woff2"),
+		url("../../fonts/Atkinson-Regular.woff?#iefix") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "LegibleFont";
+	src:
+		url("../../fonts/Atkinson-Bold.eot?") format("embedded-opentype"),
+		url("../../fonts/Atkinson-Bold.woff2?#iefix") format("woff2"),
+		url("../../fonts/Atkinson-Bold.woff?#iefix") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "LegibleFont";
+	src:
+		url("../../fonts/Atkinson-Italic.eot?") format("embedded-opentype"),
+		url("../../fonts/Atkinson-Italic.woff2?#iefix") format("woff2"),
+		url("../../fonts/Atkinson-Italic.woff?#iefix") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "LegibleFont";
+	src:
+		url("../../fonts/Atkinson-BoldItalic.eot?") format("embedded-opentype"),
+		url("../../fonts/Atkinson-BoldItalic.woff2?#iefix") format("woff2"),
+		url("../../fonts/Atkinson-BoldItalic.woff?#iefix") format("woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0068B6;
+}
+
+img{
+    max-width:100%;
+}
+
+a{
+    color:white;
+}
+
+ul, ol{
+    padding-left: 15px;
+}
+
+.main-container{
+    width:70%;
+    border: 2px inset azure;
+    display: flex;
+}
+
+.box{
+    border: 2px inset azure;
+    padding:20px;
+}
+
+.box-link{
+    padding:10px;
+}
+
+.left-container{
+    flex:1;
+    align-self: flex-start;
+    position: sticky !important;
+    height: auto;
+    top:0;
+}
+
+.box-text{
+    background-color: #FFFFFF;
+}
+
+.box-gallery{
+    background-color: #1AB0D1;
+    flex:2;
+}
+
+td{
+    width:200px;
+    height:auto;
+    border: 2px inset azure;
+    overflow: hidden;
+    text-align: center;
+}
+
+td img{
+    width: 100%;
+    height:auto;
+}
+
+
+
+
+/*WARNING DIALOG*/
+
+dialog{
+	position:fixed;
+	width:80%;
+	height:auto;
+	margin:auto;
+	margin-top:60px;
+	margin-bottom:60px;
+	padding:20px;
+	font-size: 30px;
+    text-align: center;
+}
+
+::backdrop {
+	background-color: black;
+	opacity:0.75;
+}
+
+dialog button{
+	padding:5px;
+	font-size: 20px;
+}
+
+
+/*TRANSCRIPTS PAGE*/
+
+header{
+    text-align: center;
+}
+
+main{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-family: LegibleFont;
+    font-size: 1.3rem;
+}
+
+main a{
+    color: #0068B6;
+}
+
+nav{
+    display: block;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+

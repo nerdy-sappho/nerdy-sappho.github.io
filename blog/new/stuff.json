@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Odysseus",
+        "date": 260201,
+        "tags": ["ancient greece", "musicals"]
+    },
+    {
+        "name": "example",
+        "date": 250304,
+        "tags": ["art", "existential crisis"]
+    }
+]

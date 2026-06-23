@@ -1,0 +1,36 @@
+*{
+  box-sizing:border-box;
+  padding:0px;
+}
+
+body{
+  background:white;
+  overflow:hidden;
+}
+
+img{
+  max-width:100%;
+}
+
+main{
+  display:grid;
+  grid-template-columns:3fr 2fr;
+}
+
+.leftside{
+
+}
+
+#banner{
+  width:100%;
+}
+
+.rightside{
+  flex:2;
+}
+
+.text{
+  max-height:500px;
+  overflow-y:scroll;
+  padding:10px;
+}

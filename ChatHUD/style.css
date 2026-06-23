@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding-left: 30px;
+}
+
+body{
+    background-color: rgb(132, 9, 154);
+    background-image: url("diagonal-noise.png");
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    color:pink;
+    text-shadow: 1px 1px 10px black;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+main div {
+    height: auto;
+    padding: 20px;
+}
+
+.explanation{
+    width: 60%;
+    color: white;
+}
+.explanation div{
+    padding:40px;
+}
+#highlight{
+    color:pink;
+    text-shadow: 1px 1px 10px black;
+    font-size: 1.2rem;
+}
+.form-div{
+    width: 40%;
+    min-height: 100%;
+    background-color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+#notice{
+    display: block;
+    padding: 5px;
+    background-color: pink;
+    border: 2px dotted deeppink;
+    border-radius: 20px;
+}
+input, textarea{
+    width: 60%;
+}
+#message{
+    height:100px;
+}

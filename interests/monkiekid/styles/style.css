@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F18A14;
+    background-color:#e09a43;
+    background-color: #4a4747;
+    /*background-image: url(../images/clouds-banner-2.png);
+    background-size: 50%;*/
+    background-color: #241503;
+    background: rgb(36,21,3);
+    background: linear-gradient(180deg, rgba(36,21,3,1) 0%, rgba(146,107,54,1) 66%, rgba(229,197,132,1) 100%);
+    background-image: url(../images/sandy-boat.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-family: cursive;
+}
+
+#banner{
+    width:1200px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid black;
+    background-image: url(../images/clouds-banner-2.png);
+    background-size: cover;
+}
+
+.big-img{
+    width:100%;
+}
+
+#container{
+    width:1200px;
+    margin: auto;
+    display: flex;
+}
+
+.column{
+    padding: 10px;
+}
+
+#left-side{
+    flex:1;
+}
+
+nav{
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+nav #main-ul{
+    list-style: none;
+    padding:0;
+}
+
+nav .main{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #B9D5F8;
+    color:#C77224;
+}
+
+nav .sub-ul{
+    padding: 20px;
+}
+
+#center{
+    flex:3;
+}
+
+#right-side{
+    flex:1;
+}
+
+.box{
+    background-color: white;
+    border: 1px solid black;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.code{
+	max-height: 100px;
+	overflow-y: scroll;
+}
+
+.buttons{
+    margin-bottom: 10px;
+}
+
+.buttons #b-1 img{
+    width:16%;
+}
+
+/*GALLERY ZONE*/
+
+.gallery table{
+	width:100%;
+	border:0;
+}
+
+.gallery td{
+	width:30px;
+	text-align: center;
+	padding: 10px;
+}
+
+.myImg{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*.myImg:hover{
+	cursor:pointer;
+}*/
+
+#img-display{
+	display: block; 
+	position:fixed;
+	z-index:10;
+	width:100%;
+	height:100vh;
+	top:0;
+	left:0;
+	background-color: rgba(0, 0, 0, 0.9);
+	overflow: scroll;
+	color:white;
+}
+
+.close .fa{
+	position: absolute;  
+	top: 15px;
+    right: 35px;
+	font-size:30px;
+	color:white;
+}
+
+.close:hover{
+	cursor: pointer;
+}
+
+#img-display img{
+	display: block;
+	max-width:600px;
+	max-height: 540px;
+	margin: auto;
+	margin-top:40px;
+}
+
+#img-display #caption{
+	width:100%;
+	margin-top:10px;
+	text-align: center;
+	color:white;
+	font-size: 15px;
+}
+
+
