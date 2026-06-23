@@ -1,0 +1,52 @@
+ .container {
+  display:block;
+  margin:auto;
+  margin-top:20px;
+  width:85%;
+  height:100%;
+  display:flex;
+  flex-direction:row;
+}
+
+.leftside{
+  flex:3;
+  margin-right:20px;
+}
+
+.rightside{
+  flex:7;
+  margin-left:20px;
+}
+
+article{
+  background-color: hsla(4, 0%, 0%, 0.8);
+  padding: 15px;
+  margin-top:0px;
+}
+
+.side{
+  margin-bottom:15px;
+}
+
+#paint {
+  background-image:url("../images/paint.png");
+  height:200px;
+}
+
+#paint:hover {
+  cursor:pointer;
+  filter:brightness(50%);
+}
+
+#interests {
+  background-image:url("../images/monkie-kid2.png");
+  background-attachment: scroll;
+  background-position:bottom;
+  background-size: 100%;
+  height:200px;
+}
+
+#interests:hover {
+  cursor:pointer;
+  filter:brightness(50%);
+}

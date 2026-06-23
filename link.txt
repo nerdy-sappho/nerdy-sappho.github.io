@@ -1,0 +1,137 @@
+<a href="http://www.dragonflycave.com/quizzes/what-pokemon-are-you"><img src="http://www.dragonflycave.com/wpay/mew.gif" alt="I am a Mew!" title="Find out what Pokémon you are at The Cave of Dragonflies"></a>
+
+https://picrew.me/en/image_maker/644129
+
+https://picrew.me/en/image_maker/1868017
+
+https://picrew.me/en/image_maker/2212965
+
+<section class="sitemap">
+        <h2>Useful links</h2>
+        <ul>
+          <li><a href="https://filegarden.com/">File garden (free file host)</a></li>
+          <li><a href="https://catbox.moe/">Catbox (another free file host)</a></li>
+          <li><a href="https://sadgrl.online/projects/88x31-button-maker">88x31 button maker</a></li>
+          <li><a href="https://hekate2.github.io/buttonmaker/">Another 88x31 button maker</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn">Mozilla&apos;s web development guides</a></li>
+          <li><a href="https://www.reddit.com/r/neocities/comments/p2ohhf/martindisks_messy_guide_to_having_custom_fonts_on/">Messy guide to custom fonts</a></li>
+          <li><a href="https://www.paulirish.com/2009/bulletproof-font-face-implementation-syntax/">Font face bulletproof syntax (in case neocities is annoying you too)</a></li>
+          <li><a href="https://www.aestheticsymbols.me/">Aesthetic symbols online</a></li>
+          <li><a href="https://www.babelstone.co.uk/Unicode/text.html">Unicode text styler</a></li>
+          <li><a href="https://getemoji.com/">Copy-paste emojis</a></li>
+          <li><a href="https://blinkies.cafe/">Blinkie maker: build a blinkie!</a></li>
+          <li><a href="https://www.pixilart.com/draw">Easy pixel art canvas (free online)</a></li>
+          <li><a href="https://neocities.org">Neocities: make a free static website! (this site's host)</a></li>
+          <li><a href="https://nekoweb.org">Nekoweb: alternative to neocities (more file permissions)</a></li>
+          <li><a href="https://atabook.org">Guestbook (free + no ads + customization)</a></li>
+        </ul>
+      </section>
+      
+      
+
+
+
+
+//notion chart
+<iframe src="https://chartbase.so/embed/ddd3a626-7867-4c76-bfe8-e1c7764e0c2e" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+(from the writing stuff on commonplace book)
+
+//site animal guardian
+<div class="results" style="width: 200px;background-color: #fff;color: #000;display: block;padding: 10px;border: 1px solid;margin: 0 auto;font-family: 'times';font-size: '15pt';">
+        <p style="margin: 0">This page is protected by a</p>
+        <h1 class="title" style="margin: 0">ZEBRA</h1>
+        <img class="image" style="max-width: 160px;border: 1px solid" alt="ZEBRA" src="https://i.ibb.co/pQ5VvhG/zebra.jpg">
+        <p class="description">The zebra's stripes are known to protect it from blood-sucking insects</p>
+        <small>
+          <a href="https://hekate.neocities.org">Want your own? Visit hekate.neocities.org!</a>
+        </small>
+      </div>
+      
+//rock quiz
+<a href="https://swiftyshq.neocities.org/fun/quiz/rock"><img src="https://swiftyshq.neocities.org/img/quiz/rock/r2.png" alt="smoothe river rock" title="ough.... youre so relaxed.... this rock is PERFECT for napping on.... it's warmed by the sun too... .yo.... snzz"></a>
+
+//pokemon 1
+<a href="http://thousandroads.net/misc/pmdquiz/"><img src="http://thousandroads.net/misc/pmdquiz/static/results/Piplup.png" alt="I am Piplup!" /></a>
+
+//pokemon 2
+<a href="http://www.dragonflycave.com/quizzes/what-pokemon-are-you"><img src="http://www.dragonflycave.com/wpay/mew.gif" alt="I am a Mew!" title="Find out what Pokémon you are at The Cave of Dragonflies"></a>
+
+//otaku quiz
+<A href="https://www.theotaku.com/quizzes/view/4069/what_type_of_otaku_are_you%3F"><img border="0" src="http://www.theotaku.com/guru_results/4069_Hardcore_Otaku.jpg" alt="What type of otaku are you?" /><br /></a><A href="https://www.theotaku.com/quizzes/view/4069/what_type_of_otaku_are_you%3F">What type of otaku are you?</A><br />Hosted By theOtaku.com: <a href="http://www.theotaku.com" title="Anime">Anime</a>
+
+//manga genre
+<A href="https://www.theotaku.com/quizzes/view/3240/what_genre_of_manga_are_you%3F"><img border="0" src="http://www.theotaku.com/guru_results/3240_shoujo.jpg" alt="What Genre Of Manga Are You?" /><br /></a><A href="https://www.theotaku.com/quizzes/view/3240/what_genre_of_manga_are_you%3F">What Genre Of Manga Are You?</A><br />Hosted By theOtaku.com: <a href="http://www.theotaku.com" title="Anime">Anime</a>
+
+//game genre
+<A href="https://www.theotaku.com/quizzes/view/2059/what_popular_video_game_genre_are_you%3F"><img border="0" src="http://www.theotaku.com/guru_results/2059_Platformer.jpg" alt="What Popular Video Game Genre Are You?" /><br /></a><A href="https://www.theotaku.com/quizzes/view/2059/what_popular_video_game_genre_are_you%3F">What Popular Video Game Genre Are You?</A><br />Hosted By theOtaku.com: <a href="http://www.theotaku.com" title="Anime">Anime</a>
+
+//anime hair
+<A href="https://www.theotaku.com/quizzes/view/1592/what_is_your_anime_hair_color%3F"><img border="0" src="http://www.theotaku.com/guru_results/1592_Brunette.jpg" alt="What Is Your Anime Hair Color?" /><br /></a><A href="https://www.theotaku.com/quizzes/view/1592/what_is_your_anime_hair_color%3F">What Is Your Anime Hair Color?</A><br />Hosted By theOtaku.com: <a href="http://www.theotaku.com" title="Anime">Anime</a>
+
+//pokemon type
+<a href="https://www.dragonflycave.com/quizzes/what-type-are-you/grass"><img src="https://www.dragonflycave.com/typequiz/grass.png" alt="Grass" title="I am a Grass-type!"></a>
+
+//eevelution
+<div style="border:1px solid #999;border-radius:6px;padding:6px;font:normal 1em sans-serif;background:#fff;color:#000;min-width:200px;max-width:360px;"><style scoped>.resBarOuter {width:75%;height:15px;padding:0;margin:0;background:#eee;border:1px solid #000;text-align:left !important;position:relative;} .resBarInner {text-indent:-9999px;height:15px;background:#d02;font-size:6px;line-height:6px;margin:0;padding:0;position:relative;background-image:linear-gradient(bottom,rgb(221,0,33) 40%,rgb(255,60,86) 74%,rgb(221,0,33) 100%);background-image:-moz-linear-gradient(bottom,rgb(221,0,33) 40%,rgb(255,60,86) 74%,rgb(221,0,33) 100%);background-image:-webkit-linear-gradient(bottom,rgb(221,0,33) 40%,rgb(255,60,86) 74%,rgb(221,0,33) 100%);background-image:-ms-linear-gradient(bottom,rgb(221,0,33) 40%,rgb(255,60,86) 74%,rgb(221,0,33) 100%);} .resBarM {width:35%;float:right;margin-right: 10px;} .resRow {color:#000;background:#fff;clear:both;margin: 5px 0;}}</style><div style="color:#000;font:bold 1.2em sans-serif;margin:0 0 8px 0;">Your Eevee will evolve into...</div><div style="font:bold 1.2em sans-serif;margin:0 0 4px 0;">Your Result: <strong>Espeon</strong></div><div class="resBarOuter"><div class="resBarInner" style="width:81%;">&nbsp;</div></div><div style="margin:10px 0 4px;border:none;background:#fff;color:#000;"><img src="https://www.gotoquiz.com.nyud.net/upic/2018/17/srmn5L.T1.png" style="float:left;margin:2px 4px 2px 0;border:1px solid #333;" alt="">Name: Espeon, the Sun Pokemon Type: Psychic
+Colors: lilac, dark lavender, deep blue, ruby red
+Info: Espeons love basking in the sun and are the most powerful when doing so. As a Psychic type Pokemon, Espeons are very strong and protective of their trainers. Its forked tail quivers when predicting the future.</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width:67%;">&nbsp;</div></div>Umbreon</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width:65%;">&nbsp;</div></div>Sylveon</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width:55%;">&nbsp;</div></div>Glaceon</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width:45%;">&nbsp;</div></div>Vaporeon</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width:43%;">&nbsp;</div></div>Leafeon</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width:31%;">&nbsp;</div></div>Jolteon</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width:24%;">&nbsp;</div></div>Flareon</div><div><a style="color: #00f;" href="https://www.gotoquiz.com/your_eevee_will_evolve_into"><strong>Your Eevee will evolve into...</strong></a></div></div>
+
+//gender hello i am
+<table width="320" height="240" border="0" align="center" cellpadding="2" cellspacing="5" bgcolor="#0066FF">
+  <tr>
+    <td height="1" align="center" style="color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold">
+      <span style="font-size: xx-large">Hello</span><br>
+      <span style="font-size: medium">My name is</span>
+    </td>
+  </tr>
+  <tr>
+    <td height="1" valign="middle" align="center" bgcolor="#FFFFFF" style="color: #000000; font-family: Marker Felt, Verdana, Arial, Helvetica, sans-serif">
+      ???
+    </td>
+  </tr>
+  <tr>
+    <td height="1" align="center" style="color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold">
+      <span style="font-size: medium">I am</span>
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle" align="center" bgcolor="#FFFFFF" style="color: #000000; font-family: Marker Felt, Verdana, Arial, Helvetica, sans-serif">
+      activist, adult, alien, ambiguous, androgynous, anomalous, artsy, bicurious, big brother, big sister, bisensual, boy lover, boygirl, butch, butch-ish, cat lover, complex, confused, dog lover, dreamer, dude, eccentric, effeminate, FT?, female-bodied, feminist, femmy butch, fluid, full of hate, full of love, geek, gender anarchist, gender bender, gender deviant, gender fluid, gender liberationist, gender outlaw, genderqueer, human, introvert, leftist, lost, male-souled, many and one, multifacetted, nerd, new man, new woman, not sure of myself, pan-romantic, passionate, philosopher, pro-choice, queerly straight, questioning, romantic, shapeshifter, snuggly, tomboy, trans-friendly, weird, witch, wizard
+    </td>
+  </tr>
+  <tr>
+    <td height="1" align="center" style="color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small">
+      <a href="http://www.yaygender.net/pages/gender.pl" style="color: #FFFFFF">Who are you?</a>
+    </td>
+  </tr>
+</table>
+
+//tarot card
+<a href="https://web.archive.org/web/20030509170644/http://www.zenhex.com/tests/tarot/">
+<img src="https://web.archive.org/web/20030509170644im_/http://www.zenhex.com/tests/tarot/8.jpg" border="0" height="301" width="175"><br>Which tarot card are you?</a>
+
+
+they/them 
+prox/proxself
+sol/sun
+xe/xim
+xe/xem
+thon/thons 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

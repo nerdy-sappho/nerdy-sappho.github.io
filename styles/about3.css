@@ -1,0 +1,74 @@
+img{
+	max-width: 100%;
+}
+
+h2 {
+  display:block;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+#color {
+  font-size:20px;
+  color: hsla(50, 70%, 70%, 1);
+}
+
+.container{
+  max-width:1100px;
+  background-color: hsla(4, 0%, 0%, 0.8);
+  padding:20px;
+  display: flex;
+}
+
+article{
+  margin-bottom:20px;
+}
+
+.profile{
+	width:30%;
+	text-align: center;
+	padding:10px;
+}
+
+.content{
+	width:70%;
+	padding:10px;
+}
+
+#status{
+	max-width:500px;
+	margin:auto;
+	margin-bottom:20px;
+	border:1px solid white;
+	padding:10px;
+	text-align: center;
+}
+
+.fix p{
+  margin-bottom:15px;
+}
+
+.fix img{
+  width:100px;
+  
+}
+
+.f-current img{
+	width: 300px;
+	display: block;
+	/*margin:auto;*/
+}
+
+.fix img:hover{
+	filter: brightness(50%);
+}
+
+
+
+
+
+
+
+
+
+

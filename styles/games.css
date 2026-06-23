@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "Arcade";
+	src:
+		url("../fonts/ka1.eot?") format("embedded-opentype"),
+		url("../fonts/ka1-webfont.woff2?#iefix") format("woff2"),
+		url("../fonts/ka1-webfont.woff?#iefix") format("woff");
+}
+
+dialog{
+	position:fixed;
+	width:80%;
+	max-width:300px;
+	height:auto;
+	margin:auto;
+	margin-top:60px;
+	margin-bottom:60px;
+	padding:20px;
+	font-size: 20px;
+}
+
+::backdrop {
+	background-color: black;
+	opacity:0.75;
+}
+
+dialog button{
+	padding:5px;
+}
+
+iframe{
+	display: block;
+	margin:auto;
+	overflow: hidden;
+}
+
+#dino{
+	width: 500px;
+	height: 200px;
+}
+
+h2{
+	font-family: Arcade;
+}

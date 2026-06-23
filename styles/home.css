@@ -1,0 +1,353 @@
+@font-face {
+	font-family: "Arcade";
+	src: 
+		url("../fonts/ka1.eot?") format("embedded-opentype"),
+		url("../fonts/ka1-webfont.woff2?#iefix") format("woff2");
+}
+
+:root {
+	--maincolor-t: hsla(4, 73%, 40%, 0.8);
+	--maincolor: hsla(4, 73%, 40%, 1);
+    --backgrounds: hsla(4, 0%, 0%, 0.8);
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hide{
+	display:none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+	width: 85%;
+}
+
+.block{
+    background-color: var(--backgrounds);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+
+/*STILYING PARTICULAR PIECES*/
+
+.deco-title {
+	background-color: white;
+	border: 2px dashed var(--backgrounds);
+	padding: 8px;
+	color: var(--maincolor);
+	margin-bottom: 8px;
+}
+
+#paint{
+    background-image: url("../images/paint.png");
+    height: 200px;
+}
+
+#interests{
+    background-image: url("../images/monkie-kid2.png");
+    height: 200px;
+    background-attachment: scroll;
+    background-position: bottom;
+}
+
+#update {
+	background: hsla(4, 100%, 100%, 0.8);
+	border: 10px solid var(--backgrounds);
+	color: var(--backgrounds);
+}
+
+#uscroll {
+	height: 180px;
+	margin-top: 10px;
+	overflow-y: scroll;
+}
+
+#uscroll a{
+	color: var(--maincolor);
+}
+
+
+/*ON HOVER*/
+
+#help:hover{
+	cursor: pointer;
+}
+
+#paint:hover {
+	cursor: pointer;
+	filter: brightness(50%);
+}
+
+#interests:hover {
+	cursor: pointer;
+	filter: brightness(50%);
+}
+
+
+/*IMAGE SIZING*/
+
+.img-float-left{
+    float: left;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+/*MEDIA START*/
+
+@media (min-width: 1396px) {
+    .container{
+        width: 1200px;
+    }
+
+    .col-left{
+        flex:2;
+    }
+    .col-center{
+        flex:1;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .col-right{
+        flex:1;
+    }
+
+
+    /*STILYING PARTICULAR PIECES*/
+
+    #interests{
+        background-size: 100%;
+    }
+    .follow-button {
+		margin-top: 10px;
+		width: 150px;
+		height: 20px;
+	}
+    #sharks-2{
+        display: none;
+    }
+
+
+    /*IMAGE SIZING*/
+    
+    .img-float-left{
+        width: 25%;
+    }
+    #buttons-fandom img {
+		width: 18%;
+	}
+    #buttons-info img {
+		width: 31%;
+	}
+    #buttons-mine{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+/*--------------------------------------------------------------------------------*/
+
+@media (min-width:1050px) and (max-width:1396px){
+    .col-left{
+        flex:2;
+    }
+    .col-center{
+        flex:1;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .col-right{
+        flex:1;
+    }
+
+
+    /*STILYING PARTICULAR PIECES*/
+    
+    #interests{
+        background-size: 100%;
+    }
+    .follow-button {
+		margin-top: 10px;
+		width: 150px;
+		height: 20px;
+	}
+
+    /*IMAGE SIZING*/
+    
+    .img-float-left{
+        width: 25%;
+    }
+    #buttons-fandom img {
+		width: 18%;
+	}
+    #buttons-info img {
+		width: 31%;
+	}
+    #buttons-mine{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #sharks-2{
+        display: none;
+    }
+}
+
+/*--------------------------------------------------------------------------------*/
+
+@media (min-width:600px) and (max-width:1050px){
+    .container{
+        display: block;
+    }
+    .col-left, .col-center, .col-right{
+        display: grid;
+        width:100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+
+
+    /*GRID POSITIONS*/
+    
+    #intro {
+		height: auto;
+		grid-column: 1/2;
+		grid-row: 1/4;
+        margin-bottom: -10px;
+	}
+	#banners {
+		grid-column: 2/3;
+		grid-row: 1/4;
+	}
+	#self-promo {
+		grid-column: 1/3;
+		grid-row: 4/5;
+	}
+
+	#update {
+		grid-column: 1/2;
+		grid-row: 1/3;
+	}
+	#todo {
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+	#visitors {
+		display: flex;
+		grid-column: 2/3;
+		grid-row: 2/3;
+	}
+    #ad{
+		grid-column: 1/2;
+		grid-row: 3/4;
+    }
+    #sharks-1{
+        display: block;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+	#stats {
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	#visit-widget {
+		min-width: 200px;
+		padding: 2%;
+	}
+
+	#about {
+		grid-column: 1/3;
+		grid-row: 1/2;
+	}
+	#buttons-mine {
+		padding: 10px;
+		grid-column: 2/3;
+		grid-row: 2/3;
+	}
+	#gifypet {
+		min-width: 300px;
+		grid-column: 1/3;
+		grid-row: 3/4;
+	}
+    #sharks-2{
+        display: none;
+    }
+
+
+    /*STILYING PARTICULAR PIECES*/
+    
+    #paint{
+        height: 50%;
+        margin-bottom: 0;
+    }
+    #interests{
+        height: 50%;
+        background-size: cover;
+    }
+    .follow-button {
+		margin-top: 10px;
+		width: 100px;
+		height: 40px;
+	}
+
+    /*IMAGE SIZING*/
+
+    .img-float-left{
+        width: 30%;
+        margin-right: 10px;
+    }
+    #buttons-fandom img {
+		width: 31%;
+	}
+    #buttons-info img {
+		width: 48%;
+	}
+}
+
+/*--------------------------------------------------------------------------------*/
+
+@media (max-width:600px){
+    .container{
+        display:block;
+    }
+    
+    .col-left{
+        width: 100%;
+    }
+    .col-center, .col-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    /*STILYING PARTICULAR PIECES*/
+    
+    #interests{
+        background-size: 100%;
+    }
+
+    /*IMAGE SIZING*/
+
+    .img-float-left{
+        width: 30%;
+    }
+    #buttons-fandom img {
+		width: 16%;
+	}
+    #buttons-info img {
+		width: 31%;
+	}
+	
+	/*GIFYPET PROBLEMS PREVENTION*/
+	
+	#gifypet{
+		display:none;
+	}
+}

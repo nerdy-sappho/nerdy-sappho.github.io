@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Welcome Traveler</title>
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <meta name="description" content="A little den in the net where I can hide and be a weird gremlin. Be warned I'm terribly cringe and shameless">
+    <link href="styles/base.css" rel="stylesheet" type="text/css" media="all">
+    <link href="styles/about.css" rel="stylesheet" type="text/css" media="all">
+    <script src="scripts/main-theme.js" defer></script>
+  </head>
+  <body>
+    <script>NekoType="socks"</script>
+    <h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a 
+    href="https://webneko.net">Neko</a></h1>
+    <header>
+     <h1>What's my name again?</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="interests.html">interests</a></li>
+        <li><a href="">art gallery</a></li>
+        <li><a href="">projects</a></li>
+        <li><a href="">links</a></li>
+        <li><a href="">collection</a></li>
+        <li><a href="sitemap.html">sitemap</a></li>
+        <li><a href="https://whatsmynameagain.atabook.org/">guestbook</a></li>
+      </ul>
+    </nav>
+    <main class="container">
+    </main>
+    <footer>
+    <div class="copyright">
+      layout and art in gallery © Hayden Luce 2024-forever &lt;3
+    </div>
+    <!--<nav class="links">
+      <ul>
+        <li><a href="">sitemap</a></li>
+        <li><a href="https://neocities.org/site/whatsmynameagain">neocities profile</a></li>
+        <li><a href="">guestbook</a></li>
+      </ul>
+    </nav>
+    -->
+    </footer>
+  </body>
+</html>

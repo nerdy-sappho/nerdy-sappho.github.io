@@ -1,0 +1,203 @@
+ * {
+  box-sizing:border-box;
+}
+
+body{
+	cursor:url(https://file.garden/ZrOKAUb_lR-IK9dq/cursors/sonic-cursor1.gif), auto;
+}
+
+a:hover{
+	cursor:url(https://file.garden/ZrOKAUb_lR-IK9dq/cursors/sonic-cursor1.gif), auto;
+}
+ 
+ .container {
+  display:block;
+  margin:auto;
+  margin-top:20px;
+  width:85%;
+  height:100%;
+  display:flex;
+  flex-direction:row;
+}
+
+.container article{
+  margin-bottom:15px;
+  padding:20px;
+  background-color: hsla(4, 0%, 0%, 0.8);
+}
+
+h2 {
+  display:block;
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+h2 #first{
+  display:block;
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:0px;
+}
+
+h3 {
+  display:block;
+  text-align:center;
+  margin-bottom:10px;
+  margin-top:5px;
+}
+
+#color {
+  font-size:20px;
+  color: hsla(50, 70%, 70%, 1);
+}
+
+#leftside {
+  display:block;
+  min-width:30%;
+  flex-basis: 40%;
+  /*border:1px solid white;*/
+}
+
+#center {
+  display:block;
+  min-width:40%;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#rightside {
+  display:block;
+  min-width:30%;
+}
+
+.slideshow-container {
+  width: 70%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#picrews{
+  width:10%;
+  margin:auto;
+  /*display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  height:200px;
+  overflow-x:scroll;
+  overflow-y:hidden;*/
+}
+
+#picrews img{
+  max-height:100%;
+  margin:1px;
+}
+
+
+#social img{
+  max-width:250px;
+  margin-bottom:1px;
+  margin-top:1px;
+}
+
+
+#statuscafe {
+    padding: .5em;
+    background: none;
+    /*border: 2px solid hsla(0, 100%, 100%, 0.8);*/
+    /*overflow-y:scroll;
+    max-height:130px;*/
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+    color:white;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    color:white;
+}
+
+
+#kin p, #fixiations p, #d-fixiations p{
+  margin-bottom:15px;
+}
+
+#kin img, #fixiations img, #d-fixiations img{
+  width:48%;
+  
+}
+
+#kin img:hover, #fixiations img:hover, #d-fixiations img:hover{
+	filter: brightness(50%);
+}
+
+
+

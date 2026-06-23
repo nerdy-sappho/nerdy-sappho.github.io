@@ -1,0 +1,14 @@
+<article class="partfirst" id="social">
+     <h3 id="littletitle">My socials</h3>
+        <a target="blank" href="https://www.instagram.com/haydendemonlizard/"><img alt="instagram" src="images/links/instagram.gif"></a>
+        <a target="blank" href="https://haydendemonlizard.tumblr.com"><img alt="tumblr" src="images/links/tumblr.gif"></a>
+        <p>I'm also on Cara, a platform for artists that won't sell all your hard work to a stupid stealing machine</p>
+        <a target="blank" href="https://cara.app/haydendemonlizard"><img alt="cara" src="images/links/cara.gif"></a>
+      </article>
+      
+ 
+                <li class="entry">
+                	<time datetime="2024-08-17" class="test-time">17/08/2024 - </time>
+                	<a href="blog/240817">Thoughts on ghostkin</a>
+                	<!--ghostkin, ghosts, otherkinity, alterhumanity, mental health, depression, derealization-->
+                </li>

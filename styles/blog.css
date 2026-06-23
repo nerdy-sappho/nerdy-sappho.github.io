@@ -1,0 +1,385 @@
+@font-face {
+	font-family: "CuteNotes";
+	src:
+		url("../fonts/CuteNotes.eot?") format("embedded-opentype"),
+		url("../fonts/CuteNotes.woff2?#iefix") format("woff2"),
+		url("../fonts/CuteNotes.woff?#iefix") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "LegibleFont";
+	src:
+		url("../fonts/Atkinson-Regular.eot?") format("embedded-opentype"),
+		url("../fonts/Atkinson-Regular.woff2?#iefix") format("woff2"),
+		url("../fonts/Atkinson-Regular.woff?#iefix") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "LegibleFont";
+	src:
+		url("../fonts/Atkinson-Bold.eot?") format("embedded-opentype"),
+		url("../fonts/Atkinson-Bold.woff2?#iefix") format("woff2"),
+		url("../fonts/Atkinson-Bold.woff?#iefix") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "LegibleFont";
+	src:
+		url("../fonts/Atkinson-Italic.eot?") format("embedded-opentype"),
+		url("../fonts/Atkinson-Italic.woff2?#iefix") format("woff2"),
+		url("../fonts/Atkinson-Italic.woff?#iefix") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "LegibleFont";
+	src:
+		url("../fonts/Atkinson-BoldItalic.eot?") format("embedded-opentype"),
+		url("../fonts/Atkinson-BoldItalic.woff2?#iefix") format("woff2"),
+		url("../fonts/Atkinson-BoldItalic.woff?#iefix") format("woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "OpenDyslexic";
+	src:
+		url("../fonts/OpenDyslexic3-Regular.eot?") format("embedded-opentype"),
+		url("../fonts/OpenDyslexic3-Regular.woff2?#iefix") format("woff2"),
+		url("../fonts/OpenDyslexic3-Regular.woff?#iefix") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "OpenDyslexic";
+	src:
+		url("../fonts/OpenDyslexic3-Bold.eot?") format("embedded-opentype"),
+		url("../fonts/OpenDyslexic3-Bold.woff2?#iefix") format("woff2"),
+		url("../fonts/OpenDyslexic3-Bold.woff?#iefix") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+/*GENERAL*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--maincolor-t: hsla(4, 73%, 40%, 0.8);
+	--maincolor: hsla(4, 73%, 40%, 1);
+    --acqua: hsla(160, 40%, 70%, 1);
+}
+
+img {
+	max-width: 100%;
+}
+
+p, h2, h3, time {
+    color:black;
+    text-decoration-color: black;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+
+body {
+    background-image: url("../images/backgrounds/babypink.gif");
+	font-family: LegibleFont;
+	font-size: 1.1rem;
+	color: white;
+}
+
+
+
+/*HEADER*/
+
+header{
+    display: block;
+    width:90%;
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family: CuteNotes;
+    /*background-color: hsla(60, 56%, 91%, 0.9);
+    border-radius: 20px;*/
+    color:#242024;
+}
+
+header a {
+    display: block;
+    cursor: url(../images/starbullet.gif), auto;
+    margin:auto;
+    margin-top: 20px;
+    color:#242024;
+    border: 3px dashed beige;
+}
+
+
+
+/*CONTAINER*/
+
+.container, h1{
+    margin:auto;
+    margin-top: 20px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+
+
+/*NAVIGATION*/
+
+nav{
+    background-color: var(--acqua);
+    padding: 20px;
+}
+
+.sideimage{
+	position: relative;
+    width: 90%;
+    margin:5%;
+    margin-bottom: 10px;
+}
+
+.keynav a{
+	position: absolute;
+	display: inline-block;
+	top:-1000px;
+	left: 0;
+	overflow: hidden;
+    transition:top 0.5s ease;
+    background:white;
+    color: black;
+    z-index:1000;
+    padding:5px;
+}
+
+.keynav a:focus {
+    top: 0;
+    transition:top 0.5s ease;
+}
+
+
+#clean, #submit, #search{
+    padding:5px;
+}
+
+#results{
+	padding:5px;
+	font-family: Monospace;
+	font-size: 16px;
+	color:#242024;
+}
+
+#navul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navul, #navbottom{
+    list-style: none;
+    margin-top:10px;
+}
+
+#navul li, #navbottom li{
+    cursor: url(../images/starbullet.gif), auto;
+    display: block;
+    padding: 5px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#navul li a, #navbottom li a{
+    cursor: url(../images/starbullet.gif), auto;
+    color:black;
+    text-decoration: none;
+}
+
+#font-picker{
+    padding: 20px;
+    margin: auto;
+    color: black;
+    position: sticky !important;
+    align-self: flex-start;
+    height: auto;
+    top:0;
+}
+
+#select-font{
+    padding: 5px;
+}
+
+
+
+/*MAIN*/
+
+main{
+    background-color: white;
+    padding: 20px;
+}
+
+#menu{
+    list-style-image: url(../images/starbullet.gif);
+    list-style-position: inside;
+}
+
+.test-time{
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+time, .time{
+    margin-bottom: 10px;
+}
+
+.top{
+    display: block;
+    margin-top:10px;
+    text-align: center;
+}
+
+#navbottom{
+    margin-top:20px;
+}
+
+ul{
+    list-style-type: disc;
+    color:black;
+    list-style-position: inside;
+}
+
+.warning{
+	color: hsla(4, 73%, 40%, 1);
+}
+
+
+
+
+/*--------------------------------------------------------------------------------*/
+
+
+@media (min-width: 1180px){
+	h1{
+    	font-size:3.125rem;
+	}
+	header a {
+		width:30%;
+	}
+	.container{
+		width: 1062px;
+    	display: flex;
+	}
+	main{
+    	width:70%;
+	}
+	nav{
+    	width:30%;
+	}
+	#search-bar{
+    	display: flex;
+    	justify-content: space-evenly;
+	}
+	#navbottom{
+    	display: flex;
+    	justify-content: space-evenly;
+	}
+}
+
+@media (min-width:1000px) and (max-width: 1180px){
+	h1{
+    	font-size:3.125rem;
+	}
+	header a {
+		width:30%;
+	}
+	.container{
+    	width:90%;
+    	display: flex;
+	}
+	main{
+    	width:70%;
+	}
+	nav{
+    	width:30%;
+	}
+	#navbottom{
+    	display: flex;
+    	justify-content: space-evenly;
+	}
+}
+
+@media (min-width:486px) and (max-width:1000px){
+	h1{
+    	font-size:3.125rem;
+	}
+	header a {
+		width:30%;
+	}
+	.container{
+    	width:90%;
+	}
+	main{
+    	width:100%;
+	}
+	nav{
+    	width:100%;
+	}
+	#navbottom{
+    	display: flex;
+    	justify-content: space-evenly;
+	}
+}
+
+@media (max-width:486px){
+	h1{
+    	font-size:2.5rem;
+	}
+	header a {
+		width:50%;
+	}
+	.container{
+    	width:90%;
+	}
+	main{
+    	width:100%;
+	}
+	nav{
+    	width:100%;
+	}
+	#navbottom{
+    	width:90%;
+    	text-align: center;
+	}
+	#navbottom li{
+		margin-bottom: 5px;
+	}
+	
+}
+
+
+
+
+
+
+
